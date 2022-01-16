@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    background-color: #FFFAFA;
+}
+.user {
+    width: 200px;
+    height: 200px;
+
+    background-image: url("http://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius:200px;
+}
+.contents{
+    
+
+    width: 600px;
+    height: 600px;
+    display: block;
+    margin:10px auto;
+    font-family: 'KOTRAHOPE';
+}
+.uname{
+    color:pink;
+    padding-left:45%;
+}
+h2{
+    color:pink;
+    padding-left: 45%;
+}
+.udesc{
+    width: 400px;
+    padding-left: 18%;
+}
+.etc{
+    padding-top: 10px;
+}
+h3{
+    padding-left: 40%;
+    padding-bottom: 10px;
+    color:pink;
+}
+.github{
+    padding-left: 25%;
+    margin-right: 25px;
+}
+.velog{
+    margin-right: 25px;
+}
