@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'ACCchildrenheartOTF-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112-2@1.0/ACCchildrenheartOTF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+*{
+    margin-left: 10px;}
+
+.mode{
+    color:gray;
+}
+.tlb{
+    font-family: 'Do Hyeon', sans-serif; 
+    border: solid;
+    border-width: 1px;
+}
+body{
+    font-family: 'ACCchildrenheartOTF-Regular';
+}
+.t{
+    color:blue;
+    font-weight: bold;
+}
