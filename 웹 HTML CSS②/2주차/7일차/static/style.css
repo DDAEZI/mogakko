@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF_IceMango';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceMango.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color:#fffafa;
+    background-image: url('./images/pattern.png');
+    background-size: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom:0;
+}
+.bookcover{
+    background-color: #ffc0c8;
+    width: 1000px;
+    height: 650px;
+    margin: 75px auto;
+    border-radius: 10px;
+    position: relative;
+}
+.bookdot{
+    position: absolute;
+    border-radius: 10px;
+    border-style:dashed;
+    border-color: #fffafa;
+    top: 13px;
+    bottom: 13px;
+    left: 13px;
+    right: 13px;
+}
+.page{
+    position: absolute;
+    border-radius: 10px;
+    border-color: #fffafa;
+    background-color: #fffafa;
+    top:14px;
+    bottom: 14px;
+    left: 14px;
+    right: 14px;
+
+    display: flex;
+    padding: 13px;
+}
+.container1{
+    display: flex;
+    flex: 0.3;
+    flex-direction: column;
+    padding-left: 6px;
+}
+.title01{
+    text-align: center;
+    font-size: 13px;
+    padding: 13px 0px;
+    font-family: CookieRun-Regular;
+}
+.title_num{
+    color: red;
+}
+.box01{
+    background-color: white;
+    border: 1px solid #ffc0c8;
+    border-radius: 10px;
+    width: 160px;
+    height: 550px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.title02{
+    font-size: 13px;
+    padding: 13px 0px;
+    font-family: CookieRun-Regular;
+}
+.url{
+    padding-left: 300px;
+}
+.box02{
+    background-color: white;
+    border: 1px solid #ffc0c8;
+    border-radius: 10px;
+    width: 600px;
+    height: 550px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+.profile{
+    flex: 1;
+    padding: 3px;
+}
+.profile_desc{
+    flex:3 ;
+    padding: 20px 0px;
+    font-size: 14px;
+    font-family:KOTRAHOPE;
+    text-align: center;
+    
+}
+.nickname{
+    flex: 0.1;
+    font-family:CookieRun-Regular;
+    font-size: 13px;
+    color: #ffc0c8;
+}
+.update{
+    font-family: CookieRun-Regular;
+    font-size: 16px;
+    color: #ffc0c8;
+    flex:0.1;
+
+}
+.line{
+    border: none;
+    height: 1px;
+    color: #ffc0c8;
+    background-color: #ffc0c8;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+}
+.contents_box01{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: CookieRun-Regular;
+    font-size: 13px;
+}
+.content{
+    margin-top: 3px;
+    margin-right: 50px;
+}
+.contentPhoto{
+    background-color:hotpink;
+    color: white;
+    padding:0px 5px;
+    text-align: center;
+    margin-top:5px;
+    margin-right:5px;
+    border-radius: 3px;
+}
+.contentBoard{
+    padding-top: 5px;
+    background-color:skyblue;
+    color: white;
+    padding:0px 5px;
+    text-align: center;
+    margin-right:5px;
+    border-radius: 3px;
+}
+.contents_box02{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: CookieRun-Regular;
+    font-size: 13px;
+    padding:10px;
+}
+
+.contentNum{
+    padding-left: 10px;
+    padding-right: 40px;
+}
+hr{
+    border-style: dashed;
+    border-color: pink;
+}
+.contents_box03{
+    margin-top: 20px;
+    color: pink;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: CookieRun-Regular;
+    font-size: 16px;
+    
+}
+.contentNum{
+    color: royalblue;
+}

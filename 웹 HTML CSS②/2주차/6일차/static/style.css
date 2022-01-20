@@ -1,0 +1,82 @@
+body{
+    background-color:#fffafa;
+    background-image: url('./images/pattern.png');
+    background-size: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom:0;
+}
+.bookcover{
+    background-color: #ffc0c8;
+    width: 1000px;
+    height: 650px;
+    margin: 75px auto;
+    border-radius: 10px;
+    position: relative;
+}
+.bookdot{
+    position: absolute;
+    border-radius: 10px;
+    border-style:dashed;
+    border-color: #fffafa;
+    top: 13px;
+    bottom: 13px;
+    left: 13px;
+    right: 13px;
+}
+.page{
+    position: absolute;
+    border-radius: 10px;
+    border-color: #fffafa;
+    background-color: #fffafa;
+    top:14px;
+    bottom: 14px;
+    left: 14px;
+    right: 14px;
+
+    display: flex;
+    padding: 13px;
+}
+.content1{
+    display: flex;
+    flex: 0.3;
+    flex-direction: column;
+    padding-left: 6px;
+}
+.title01{
+    text-align: center;
+    font-size: 13px;
+    padding: 13px 0px;
+}
+.title_num{
+    color: red;
+}
+.box01{
+    background-color: white;
+    border: 1px solid #ffc0c8;
+    border-radius: 10px;
+    width: 200px;
+    height: 550px;
+}
+.content2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.title02{
+    font-size: 13px;
+    padding: 13px 0px;
+}
+.url{
+    padding-left: 50px;
+}
+.box02{
+    background-color: white;
+    border: 1px solid #ffc0c8;
+    border-radius: 10px;
+    width: 610px;
+    height: 550px;
+}
