@@ -1,0 +1,152 @@
+body{
+    background-color:#fffafa;
+    background-image: url('./images/pattern.png');
+    background-size: 100px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom:0;
+}
+.bookcover{
+    background-color: #ffc0c8;
+    width: 1000px;
+    height: 650px;
+    margin: 75px auto;
+    border-radius: 10px;
+    position: relative;
+}
+.bookdot{
+    position: absolute;
+    border-radius: 10px;
+    border-style:dashed;
+    border-color: #fffafa;
+    top: 13px;
+    bottom: 13px;
+    left: 13px;
+    right: 13px;
+    
+}
+.page{
+    position: absolute;
+    border-radius: 10px;
+    border-color: #fffafa;
+    background-color: #fffafa;
+    top:14px;
+    bottom: 14px;
+    left: 14px;
+    right: 14px;
+
+    display: flex;
+    flex-direction: row;
+    padding: 13px;
+    
+}
+/* 프로필이 들어가는 컨테이너 */
+.container1{
+    display: flex;
+    flex: 0.3;
+    flex-direction: column;
+    padding-left: 6px;
+}
+/* 방문자수 */
+.title01{
+    text-align: center;
+    font-size: 13px;
+    padding: 13px 0px;
+    font-family: CookieRun-Regular;
+}
+/* 방문자수 내 붉은 글씨 */
+.title_num{
+    color: red;
+}
+/* 프로필 틀  */
+.box01{
+    background-color: white;
+    border: 1px solid #ffc0c8;
+    border-radius: 10px;
+    width: 160px;
+    height: 550px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+/* 프로필 이미지 설정 */
+.profile{
+    flex: 1;
+    padding: 3px;
+}
+/* 프로필 내 자기소개 */
+.profile_desc{
+    flex:1 ;
+    padding: 20px 0px;
+    font-size: 14px;
+    font-family:KOTRAHOPE;
+    text-align: center;
+    
+}
+/* 프로필 내 닉네임 */
+.nickname{
+    flex: 0.2;
+    font-family:CookieRun-Regular;
+    font-size: 13px;
+    color: #ffc0c8;
+}
+/* 프로필 내 파도타기 */
+.surfing{
+    flex:0.1;
+    border: 1px solid #ffc0c8;
+    border-radius: 3px;
+
+    font-family:CookieRun-Regular;
+    color: #ffc0c8;
+}
+/* 메인 상단 타이틀 */
+.title02{
+    font-size: 13px;
+    padding: 13px 0px;
+    font-family: CookieRun-Regular;
+}
+/* 메인 상단 url */
+.url{
+    padding-left: 300px;
+}
+/* 메인페이지가 들어가는 컨테이너 */
+.container2{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin-left: 15px;
+}
+/* 메인페이지 */
+.box02{
+    background-color: white;
+    border: 1px solid #ffc0c8;
+    border-radius: 10px;
+    width: 590px;
+    height: 550px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+/*  메뉴 컨테이너 */
+.container4{
+    flex: 1;
+    margin-top: 10%;
+}
+/* 메뉴 버튼 */
+.menuBtn{
+    font-family: CookieRun-Regular;
+    font-size: 13px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #ffc0c8;
+    padding: 5px 0px;
+    margin-bottom: 3px;
+    color: white;
+}
+/* 메뉴 버튼에 마우스 가져다댔을때 색 변화 */
+.menuBtn:hover{
+    color: hotpink;
+}
