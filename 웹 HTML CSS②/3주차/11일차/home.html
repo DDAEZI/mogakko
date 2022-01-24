@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2021 MINI HOMEPAGE</title>
+    <!-- css 불러오기 -->
+    <link rel="stylesheet" href="./static/font.css" />
+    <link rel="stylesheet" href="./static/layout.css" />
+    <link rel="stylesheet" href="./static/home.css" />
+    <link rel="stylesheet" href="./static/album.css"/>
+    <link rel="stylesheet" href="./static/home.css" />
+    <link rel="stylesheet" href="./static/diary.css"/>
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <!-- 프로필 부분 -->
+          <div class="container1">
+            <div class="title01">TODAY <span class="title_num">28</span> | TOTAL 234918</div>
+            <div class="box01">
+              <img src="./static/images/profile.jpeg" class="profile" width="150px" height="150px">
+              <div class=profile_desc>프사는 우리집 귀염둥이 절미! <p>우리 절미가 세상 제일 귀여워!</p> 지구 뿌셔!!!!</div>
+              <div class="nickname">DDAEZI</div>
+              <!-- 파도타기 -->
+              <div class="surf">
+                <select name="surfing" class="surfing">
+                  <option value="default" selected disabled hidden>파도타기</option>
+                  <option value="코뮤니티">코뮤니티로 가기</option>
+                  <option value="인스타그램">인스타그램으로 가기</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <!-- 메인 -->
+          <div class="container2">
+            <!-- 메인 상단 -->
+            <div class="title02">ㄸĦズl는 오늘도 꿀꿀㈛ヱ 울ズl<span class="url">https://url주소/ddaezi</span></div>
+            <!-- 메인페이지 -->
+            <div class="box02">
+              <!-- 메인페이지 내 상단 -->
+              <div class="update">Update News<hr class="line"></div>
+              <div class="container3">
+              <div class="contents_box01">
+                <div class="content"><span class="contentPhoto">사진첩</span>귀여운 짱절미!</div>
+                <div class="content"><span class="contentBoard">게시판</span>왜 내일 벌써 금요일..?</div>
+                <div class="content"><span class="contentBoard">게시판</span>시간이 너무 빠르다ㅠ</div>
+                <div class="content"><span class="contentPhoto">사진첩</span>놀고싶다 놀고싶다~!</div>
+              </div>
+              <div class="contents_box02">
+                  <div class="firstLine"><span>다이어리</span><span class="contentNum">0/25</span><span>사진첩</span><span class="contentNum">0/25</span><hr></div>
+                  <div class="secondLine"><span>게시판</span><span class="contentNum">0/25</span><span>방명록</span><span class="contentNum">0/25</span><hr></div>
+              </div>
+            </div>
+            <!-- 메인페이지 내 하단 -->
+            <div class="contents_box03">
+              <div class="miniroom">Miniroom<hr class="line">
+              <img src="./static/images/home.gif" class="homeImage" width="580px" height="300px"></div>
+            </div>
+          </div>
+          </div>
+          <!-- 메뉴 -->
+          <div class="container4">
+            <div class="menu">
+              <div class="menuBtn" onclick="location.href='home.html';" style="cursor:pointer;">홈</a></div>
+              <div class="menuBtn" onclick="location.href='diary.html';" style="cursor:pointer;">다이어리</div>
+              <div class="menuBtn" onclick="location.href='album.html';" style="cursor:pointer;">사진첩</div>
+              <div class="menuBtn" onclick="location.href='#';" style="cursor:pointer;">방명록</div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
