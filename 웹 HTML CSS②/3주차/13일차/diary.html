@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2021 MINI HOMEPAGE</title>
+    <!-- css 불러오기 -->
+    <link rel="stylesheet" href="./static/layout.css" />
+    <link rel="stylesheet" href="./static/font.css" />
+    <link rel="stylesheet" href="./static/diary.css"/>
+    <script src="https://kit.fontawesome.com/5fd25c5399.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <!-- 프로필 부분 -->
+          <div class="container1">
+            <div class="title01">TODAY <span class="title_num">28</span> | TOTAL 234918</div>
+            <div class="box01">
+              <img src="./static/images/profile.jpeg" class="profile" width="150px" height="150px">
+              <div class=profile_desc>프사는 우리집 귀염둥이 절미! <p>우리 절미가 세상 제일 귀여워!</p> 지구 뿌셔!!!!</div>
+              <div class="nickname">DDAEZI</div>
+              <!-- 파도타기 -->
+              <div class="surf">
+                <select name="surfing" class="surfing">
+                  <option value="default" selected disabled hidden>파도타기</option>
+                  <option value="코뮤니티">코뮤니티로 가기</option>
+                  <option value="인스타그램">인스타그램으로 가기</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <!-- 메인 -->
+          <div class="container2">
+            <!-- 메인 상단 -->
+            <div class="title02">ㄸĦズl는 오늘도 꿀꿀㈛ヱ 울ズl<span class="url">https://url주소/ddaezi</span></div>
+            <!-- 메인페이지 -->
+            <div class="box02">
+                <div class="dateBox">
+                    <div class="todayDate">01.24<br><div class="todayDay">MON</div></div>
+                    <div class="date">
+                        <span class="sat">1 </span><span class="sun">2</span>
+                        3 4 5 6 7
+                        <span class="sat">8 </span><span class="sun">9</span>
+                        10 11 12 13 14
+                        <span class="sat">15 </span><span class="sun">16</span>
+                        17 18 19 20 21
+                        <span class="sat">22 </span><span class="sun">23</span>
+                        24 25 26 27 28
+                        <span class="sat">29 </span><span class="sun">30</span>
+                        31
+                    </div>
+                </div>
+                <div class="diaryContainer">
+                    <div class="diary">
+                        <div class="diaryDate">2022.01.22 일 22:01</div>
+                        <div class="diaryText">오늘은 오랜만에 집에서 뒹굴었다.<br>최근 들어서 안 나간 날이 없었는데 간만에 쉬어서 너무 좋았다.<br>
+                        특히 인스타에서 봤던 레시피대로 대패삼겹살을 해 먹었는데 진짜진짜 맛있었다.<br>다음에 또 재료 사다놓고 해먹어야겠다!<br></div>
+                    </div>
+                    <div class="diary">
+                        <div class="diaryDate">2022.01.23 일 23:37</div>
+                        <div class="diaryText">오늘은 정모를 다녀왔다.<br>오랜만에 여섯명이서 모여서 재미있었다!
+                            <br>특히 @@의 생일케이크인 아이스크림 케이크가 맛있었다.</div>
+                    </div>
+                    <div class="diary">
+                        <div class="diaryDate">2022.01.24 월 18:07</div>
+                        <div class="diaryText">아침부터 토익 학원을 다녀왔다.<br>아침 7시반 기상이 익숙해질법도한데 여전히 피곤하다<br>
+                        집 들어오는 길에 어쩌다 친구를 만나서 한 두시간 시간도 떼웠고 집에 들어와서는 정처기 시험 접수했다!!<br>미루고 미루던건데 이제 진짜 해야할때가 왔다..<br>
+                        2월에는 OO이랑 열심히 공부할 생각이다!<br></div>
+                    </div>
+                    <div class="hiddenButton">
+                        <button class="hiddenBtn" onclick="getTextFile()"><i class="fas fa-lock"> 때지의 비밀일기 보기!</i></button>
+                    </div>
+                    <div class="diary-box" id="secret-box">
+                      <div class="diary-date">때지의 비밀 일기</div>
+                      <div class="diary-text" id="secret-diary"></div>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+          <!-- 메뉴 -->
+          <div class="container4">
+            <div class="menu">
+              <div class="menuBtn" onclick="location.href='home.html';" style="cursor:pointer;">홈</a></div>
+              <div class="menuBtn" onclick="location.href='diary.html';" style="cursor:pointer;">다이어리</div>
+              <div class="menuBtn" onclick="location.href='album.html';" style="cursor:pointer;">사진첩</div>
+              <div class="menuBtn" onclick="location.href='guestbook.html';" style="cursor:pointer;">방명록</div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function getTextFile() {
+    var input = document.createElement("input");
+    input.type = "file";
+    input.accept = "text/plain";
+    input.onchange = function (event) {
+      processFile(event.target.files[0]);
+    };
+    input.click();
+  }
+
+    function processFile(file) {
+     var reader = new FileReader();
+     reader.readAsText(file, "utf-8");
+
+      reader.onload = function () {
+      document.getElementById("secret-diary").innerText = reader.result;
+      document.getElementById("secret-box").style.display = "block";
+    };
+  }
+    </script>
+  </body>
+</html>

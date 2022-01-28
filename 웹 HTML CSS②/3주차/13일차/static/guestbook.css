@@ -1,0 +1,74 @@
+.box02{
+    display: flex;
+    flex-direction: column;
+    font-family:CookieRun-Regular;
+    overflow: auto;
+}
+.guestBoxContainer {
+    margin: 20px;
+}
+.guestBox{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.guestTitle{
+    background-color: pink;
+    padding: 5px;
+} 
+.guestContent {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+
+.guest-img {
+    background-size: cover;
+    height: 100%;
+    flex: 0.3;
+}
+.guest-img img {
+    width:100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.guest1 {
+    background-image: url("./images/background1.jpg");
+}
+
+
+.guest2 {
+    background-image: url("./images/background2.jpg");
+}
+
+
+.guest3 {
+    background-image: url("./images/background3.jpg");
+}
+
+
+.guestText {
+    padding: 10px;
+    flex: 0.7;
+}
+
+
+.addButton {
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+}
+
+
+.addButton button {
+    border: none;
+    background-color: pink;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.text{
+    font-family:CookieRun-Regular;
+    padding-left: 3px;
+}

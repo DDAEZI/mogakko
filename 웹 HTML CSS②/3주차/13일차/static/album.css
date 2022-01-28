@@ -1,0 +1,30 @@
+/* 스크롤 */
+.box02{
+    overflow: auto;
+}
+/* 사진첩 */
+.album{
+    font-family: CookieRun-Regular;
+}
+/* 사진첩 제목 */
+.albumTitle{
+    font-size: 20px;
+    margin: 10px 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    background-color: pink;
+}
+/* 사진첩 이미지 */
+.albumImage{
+    width: 98%;
+    height: 350px;
+    padding: 0px 5px;
+    margin-bottom: 5px;
+}
+/* 사진첩 설명 */
+.albumDesc{
+    padding: 0px 10px;
+    font-size: 16px;
+    margin-bottom: 10%;
+}
