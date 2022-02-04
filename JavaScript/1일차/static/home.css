@@ -1,0 +1,54 @@
+*{
+    font-family: CookieRun-Regular;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textBox{
+    width: 450px;
+    height: 200px;
+    border: 2px solid skyblue;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 8vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textBox > p {
+    font-size: 25px;
+}
+.img{
+    margin-top: 29px;
+}
+.inputBox{
+    border: 2px solid pink;
+    border-radius: 16px;
+    width: 350px;
+    height: 50px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    border: 2px solid pink;
+    background-color: pink;
+    border-radius: 26px;
+    margin-top: 20px;
+    font-size: 16px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+}
