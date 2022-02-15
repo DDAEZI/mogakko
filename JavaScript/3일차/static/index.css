@@ -30,6 +30,9 @@
     margin-right: 10px;
     color: white;
 }
+.btn:active{
+    background-color: plum;
+}
 h1:nth-of-type(1){
     color:salmon;
 }
