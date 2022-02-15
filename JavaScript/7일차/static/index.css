@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: KOTRAHOPE;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timerContainer{
+    margin-top: 20vh;
+    width: 450px;
+    height: 380px;
+    border: none;
+    background-color: plum;
+    border-radius: 10px;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.time > h1{
+    font-size: 110px;
+}
+.time{
+    color: plum;
+
+    background-color: white;
+    width: 400px;
+    height: 260px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+.stop, .start, .reset{
+    margin: 0px 10px;
+    font-size: 43px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    color: plum;
+    cursor: pointer;
+
+    float:left;
+    box-shadow: 3px 3px 3px purple;
+    transition-duration: 0.5s;
+}
+#btn:active{
+    box-shadow: none;
+    color: hotpink;
+}
+
