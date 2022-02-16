@@ -21,3 +21,6 @@
 
 ## 7일차
 <img src="https://user-images.githubusercontent.com/78488493/153983114-b8f5cdee-437f-4100-8033-7dc672dfffe9.gif">
+
+## 8일차
+<img src="https://s3.ap-northeast-2.amazonaws.com/images.codemate.kr/images/DDAEZI/post/1644985732602/8%EC%9D%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C.gif">
