@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: CookieRun-Regular;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: pink;
+}
+h1{
+    font-size: 40px;
+    color: hotpink;
+    width: 350px;
+    height: 55px;
+    background-color: white;
+    text-align: center;
+}
+.btn1, .btn2, .btn3{
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    color: pink;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    cursor: pointer;
+}
+.btn1:active, .btn2:active, .btn3:active{
+    color: hotpink;
+}
+.info{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin-top: 20px;
+    font-size: 32px;
+    color: hotpink;
+}
+.genre, .release{
+    margin-top: -20px;
+    font-size: 20px;
+}
+.desc{
+    margin-top: -10px;
+    font-size: 16px;
+    padding: 40px;
+}
+.url{
+    color: gray;
+}
