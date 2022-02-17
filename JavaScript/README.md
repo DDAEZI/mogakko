@@ -24,3 +24,6 @@
 
 ## 8일차
 <img src="https://s3.ap-northeast-2.amazonaws.com/images.codemate.kr/images/DDAEZI/post/1644985732602/8%EC%9D%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C.gif">
+
+## 9일차
+<img src="https://user-images.githubusercontent.com/78488493/154502646-4791d3d7-c8ae-439c-bffc-e4c4515c2c5a.gif">
