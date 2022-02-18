@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: CookieRun-Regular;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: pink;
+}
+.container{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    margin-top: 10vh;
+}
+#call{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 97px;
+    padding: 8px;
+    border-radius: 16px;
+    border: none;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+#call:active{
+    color: hotpink;
+}
+
+.name, .number{
+    color: hotpink;
+    text-align: center;
+}
+.name{
+    margin-top: 10vh;
+    font-size: 30px;
+}
+.number{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
