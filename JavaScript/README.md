@@ -33,3 +33,6 @@
 
 ## 11일차
 <img src="https://user-images.githubusercontent.com/78488493/154901765-05a59071-a679-45a0-900e-7e90419881d6.gif">
+
+## 12일차
+<img src="https://user-images.githubusercontent.com/78488493/155104080-52293e1d-e7c7-4ce8-b2d9-fafc62761779.gif">
