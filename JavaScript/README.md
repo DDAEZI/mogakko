@@ -36,3 +36,6 @@
 
 ## 12일차
 <img src="https://user-images.githubusercontent.com/78488493/155104080-52293e1d-e7c7-4ce8-b2d9-fafc62761779.gif">
+
+## 13일차
+<img src="https://user-images.githubusercontent.com/78488493/155283895-76254e59-5320-440f-b46a-56cf9bf392a5.gif">
