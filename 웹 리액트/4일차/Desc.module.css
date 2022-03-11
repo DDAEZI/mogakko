@@ -1,0 +1,42 @@
+.h1{
+    color: hotpink;
+    font-weight: 400px;
+}
+.container{
+    width: 400px;
+    height: 200px;
+    background-color: pink;
+    padding:0px;
+   margin: auto;
+   border-radius: 10px;
+}
+.num{
+    text-align: center;
+    padding-top: 30px;
+
+    font-size: 30px;
+    color: hotpink;
+    font-weight: bold;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+
+    padding-left: 45px;
+}
+.btn{
+    padding: 15px;
+    color: pink;
+    border: none;
+    margin-left: 5px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: hotpink;
+    color: white;
+}
