@@ -1,0 +1,25 @@
+.btn{
+    cursor: pointer;
+    margin: 15px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    color: skyblue;
+}
+.btn:active{
+    color: pink;
+}
+.desc{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main{
+    width: 200px;
+    height: 100px;
+    background-color: skyblue;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 11px;
+}
