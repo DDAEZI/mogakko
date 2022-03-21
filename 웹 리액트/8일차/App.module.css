@@ -1,0 +1,34 @@
+.btn{
+    cursor: pointer;
+    font-size: 20px;
+    width:130px;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    color: skyblue;
+    margin-bottom: 10px;
+}
+.btn:active{
+    color: pink;
+}
+.desc{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main{
+    width: 200px;
+    height: 100px;
+    background-color: skyblue;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 11px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.change{
+    font-weight: bold;
+}
